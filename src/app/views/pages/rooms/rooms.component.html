@@ -1,0 +1,11 @@
+<app-filter (filterBodyEmiter)="filterBodyEmiterSub($event)"></app-filter>
+<div class="card">
+<ng-container *ngIf="roomsData$ | async as roomsData">
+    <ng-container *ngFor="let room of roomsData">
+        <p>{{room.pricePerNight}} $</p>
+        <img [src]="" alt="">
+        <app-room [room]="room"></app-room>
+    </ng-container>
+
+</ng-container>
+</div>

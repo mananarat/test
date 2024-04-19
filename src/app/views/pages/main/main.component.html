@@ -1,0 +1,14 @@
+
+   <div class="content"> 
+    <ng-container *ngIf="hotelData$ | async as hotelData">
+        
+        <ng-container *ngFor="let hotel of hotelData">
+            <div class="card">
+
+        <app-hotel [hotel]="hotel"></app-hotel>
+    </div>
+    
+    </ng-container>
+
+</ng-container>
+</div>

@@ -1,0 +1,47 @@
+
+
+    
+<!-- <p>{{data?.name}}</p>
+<p>{{data?.city}}</p>
+<img [src]="data?.featuredImage" alt=""> -->
+
+
+<div class="card">
+<ng-container *ngFor="let room of data?.rooms">
+    <p>{{room.name}}</p>
+    <br>
+    <p>{{room.pricePerNight}}  $</p>
+    <br>
+    <ng-container *ngFor="let roomImage of room.images">
+        <img [src]="roomImage.source" alt="">
+        
+        
+    </ng-container>
+    
+    
+</ng-container>
+</div>
+
+
+
+
+    
+
+<ng-container  *ngFor="let room of data?.rooms">
+    <p>{{room.name}}</p>
+    <br>
+    <p>{{room.pricePerNight}}  $</p>
+    <br>
+    <ng-container *ngFor="let roomImage of room.images">
+        <img [src]="roomImage.source" alt="">
+        
+        
+    </ng-container>
+    
+    
+</ng-container>
+
+
+
+
+    

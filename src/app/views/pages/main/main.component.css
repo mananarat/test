@@ -1,0 +1,26 @@
+.content {
+    width: 100%;
+    
+    margin: 0 auto;
+    padding: 120px 10px;
+    display: flex;
+    
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 50px;
+}
+
+/* ng-container {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(103, 200, 242);
+    border-radius: 20px;
+
+    border: 2px solid red;
+} */
+ 
+     
+    
+
+    
+    

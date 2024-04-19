@@ -1,0 +1,35 @@
+.container {
+    max-width: 1400px;
+    min-height: 800px;
+    background-color: #ccc;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ /* .header {
+    position: fixed;
+ } */
+
+.nav {
+    width: 1400px;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color: rgb(198, 222, 230);
+    /* position: fixed; */
+    
+}
+
+ul {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+li {
+    margin-top: 50px;
+}
+
+
